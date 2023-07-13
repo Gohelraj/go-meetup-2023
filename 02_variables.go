@@ -5,11 +5,11 @@ import "fmt"
 func main() {
 	// Explicitly defined variable - type is specified explicitly
 	var message string = "Hello from Go"
-	
+
 	// Constant variables
 	const pi = 3.14159
 	const maxAttempts = 5
-	
+
 	// Within a function, variables can be defined using shorthand syntax without using the var keyword
 	// Shorthand syntax uses := instead of =
 	message1 := "Hello World" // 'message1' is of type string
@@ -36,6 +36,8 @@ func main() {
 
 	// Print statements
 	fmt.Println("message =", message)
+	fmt.Println("pi =", pi)
+	fmt.Println("maxAttempts =", maxAttempts)
 	fmt.Println("x =", x, "y =", y)
 	fmt.Println("x1 =", x1, "y1 =", y1)
 	fmt.Println("name =", name, "age =", age, "isDefined =", isDefined)
@@ -43,6 +45,4 @@ func main() {
 	fmt.Println("slice =", slice)
 	fmt.Println("array =", array)
 	fmt.Println("mapVar =", mapVar)
-	fmt.Println("pi =", pi)
-	fmt.Println("maxAttempts =", maxAttempts)
 }
